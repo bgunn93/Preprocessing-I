@@ -1,1 +1,275 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+}
+html nav,
+body nav {
+  font-size: 2rem;
+  padding: 1%;
+  margin: 10px auto;
+  text-align: end;
+}
+html nav a,
+body nav a {
+  margin-left: 2%;
+  color: midnightblue;
+  text-decoration: none;
+}
+html .topsection,
+body .topsection {
+  font-size: 20px;
+  background-color: lightgray;
+  margin: 10px;
+}
+html .topsection div,
+body .topsection div {
+  margin: 30px 30px 70px;
+}
+html .topsection div h1,
+body .topsection div h1 {
+  font-size: 4rem;
+}
+html .topsection div h2,
+body .topsection div h2 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+html .topsection div p,
+body .topsection div p {
+  margin: 30px auto;
+}
+html .topsection div button,
+body .topsection div button {
+  font-size: 2.5rem;
+  color: whitesmoke;
+  background-color: grey;
+  border-radius: 8px;
+  padding: 10px;
+}
+html .middle_section,
+body .middle_section {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+}
+html .middle_section h2,
+body .middle_section h2 {
+  font-size: 4rem;
+}
+html .middle_section p,
+body .middle_section p {
+  font-size: 2.5rem;
+}
+html .middle_section div,
+body .middle_section div {
+  width: 50%;
+}
+html .middle_section .Goodat,
+body .middle_section .Goodat {
+  width: 100%;
+  /* border: 1px solid black; */
+  height: 18.5%;
+}
+@media (max-width: 500px) {
+  html,
+  body {
+    background-color: lavender;
+  }
+  html div .flex,
+  body div .flex {
+    flex-direction: column;
+  }
+  html p,
+  body p {
+    font-size: 20px;
+  }
+}
+html table,
+body table {
+  width: 100%;
+  margin-bottom: 15px;
+}
+html table .WorkHistory,
+body table .WorkHistory {
+  font-size: 3rem;
+}
+html table th,
+body table th {
+  font-size: 2.5rem;
+}
+html table td,
+body table td {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+}
+html table tr,
+body table tr {
+  border-bottom: 0.5px solid black;
+  border-top: 0.5px solid black;
+}
+html table .boldtable,
+body table .boldtable {
+  font-weight: bold;
+}
+html table .rowgrey,
+body table .rowgrey {
+  background-color: lightgray;
+}
+html h1,
+body h1 {
+  font-size: 3rem;
+}
+html footer,
+body footer {
+  text-align: center;
+  font-size: 1.4rem;
+  background-color: gray;
+  color: white;
+}
+html footer p,
+body footer p {
+  padding: 20px ;
+}
+html .flex,
+body .flex {
+  display: flex;
+}
+html .mobilebackground,
+body .mobilebackground {
+  background-color: lavender;
+}
